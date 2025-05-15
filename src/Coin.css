@@ -1,0 +1,26 @@
+.coin-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.coin {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.coin img {
+  width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 24px;
+}

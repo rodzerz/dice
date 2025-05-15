@@ -1,15 +1,13 @@
-import Dice from "./Dice";
-import "./App.css";
+import React from 'react';
+import Coin from './Coin';
 
 function App() {
   return (
-    <>
-      <h1>Gājienu palīgs</h1>
-      <Dice />
-    </>
+    <div className="App">
+      <Coin />
+      
+    </div>
   );
 }
-  
 
 export default App;
-              
